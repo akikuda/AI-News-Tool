@@ -59,8 +59,6 @@ platforms:
       name: "今日头条"
     - id: "baidu"
       name: "百度热搜"
-    - id: "wallstreetcn-hot"
-      name: "华尔街见闻"
     - id: "thepaper"
       name: "澎湃新闻"
     - id: "bilibili-hot-search"
@@ -78,6 +76,37 @@ platforms:
     - id: "zhihu"
       name: "知乎"
 
+	- id: "wallstreetcn-hot"
+      name: "华尔街见闻 最热"
+	- id: "wallstreetcn-quick"
+      name: "华尔街见闻 快讯"
+	- id: "wallstreetcn-news"
+      name: "华尔街见闻 最新"
+	- id: "cls-hot"
+      name: "财联社热门"
+	- id: "gelonghui"
+      name: "格隆汇"
+	- id: "xueqiu"
+      name: "雪球"
+	- id: "jin10"
+      name: "金十数据"
+	- id: "fastbull"
+      name: "快讯通"
+	  
+	- id: "tencent-hot"
+      name: "腾讯新闻 综合早报"
+    
+    - id: "cls-telegraph"
+      name: "财联社 电报"
+    
+    - id: "cls-depth"
+      name: "财联社 深度"
+    
+    - id: "fastbull-express"
+      name: "法布财经 快讯"
+    
+    - id: "fastbull-news"
+      name: "法布财经 头条"
 
 
 # ===============================================================
@@ -424,7 +453,7 @@ ai_translation:
 
   # 翻译范围（display.regions 关闭的区域即使开启也不会翻译）
   scope:
-    hotlist: false                  # 翻译热榜标题（true=翻译, false=不翻译）
+    hotlist: true                  # 翻译热榜标题（true=翻译, false=不翻译）
     rss: true                       # 翻译 RSS 标题（true=翻译, false=不翻译）
     standalone: true                # 翻译独立展示区标题（true=翻译, false=不翻译）
 
